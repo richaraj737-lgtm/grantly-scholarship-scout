@@ -2,15 +2,75 @@
   "source": "code-archive",
   "archive": "GRANTLY_VS_Code_Project.zip",
   "capabilities": [
-    {"capability":"application code and screens","source":"React/Vite prototype","outcome":"recreate in the existing TanStack app","status":"implemented","next_action":"Verify the English landing page, scholarship workspace, and demo interactions in preview."},
-    {"capability":"schema and data records","source":"No database/schema or record export detected; sample scholarships are hard-coded","outcome":"retain illustrative sample listings; no database migration applies","status":"verified","next_action":"Keep sample-data disclaimers visible."},
-    {"capability":"authentication and user identities","source":"Front-end-only demo sign-in; no auth provider or user records","outcome":"preserve explicitly as demo-only behavior","status":"verified","next_action":"Do not represent demo sign-in as secure authentication."},
-    {"capability":"authorization","source":"No roles or authorization boundaries detected","outcome":"not applicable to static prototype","status":"verified","next_action":"None."},
-    {"capability":"browser-saved preferences and progress","source":"Browser localStorage for saved scholarships, activity, documents, and profile","outcome":"preserve browser-local demo persistence","status":"implemented","next_action":"Verify browser-local saves and targeted clearing in preview."},
-    {"capability":"uploaded file bytes","source":"No upload flow or stored files; document page is a checklist","outcome":"preserve checklist only","status":"verified","next_action":"Keep file upload explicitly unavailable."},
-    {"capability":"external providers and links","source":"Official scholarship/provider links in sample records","outcome":"preserve outbound links","status":"verified","next_action":"Keep links opening safely in a new tab."},
-    {"capability":"public endpoints, callbacks, webhooks, schedules, payments, email, analytics, AI","source":"None detected","outcome":"not applicable","status":"verified","next_action":"None."},
-    {"capability":"secrets and cutover","source":"No user-owned secrets or live service cutover detected","outcome":"not applicable","status":"verified","next_action":"None."},
-    {"capability":"verification","source":"Lovable preview","outcome":"pending","status":"pending","next_action":"Verify the landing page and key scholarship interactions in preview."}
+    {
+      "capability": "application code and screens",
+      "source": "React/Vite prototype",
+      "outcome": "recreate in the existing TanStack app",
+      "status": "verified",
+      "next_action": "Preview checks passed for the English landing page, scholarship details, activity, mobile layout, persistence, and targeted data clearing."
+    },
+    {
+      "capability": "schema and data records",
+      "source": "No database/schema or record export detected; sample scholarships are hard-coded",
+      "outcome": "retain illustrative sample listings; no database migration applies",
+      "status": "verified",
+      "next_action": "Keep sample-data disclaimers visible."
+    },
+    {
+      "capability": "authentication and user identities",
+      "source": "Front-end-only demo sign-in; no auth provider or user records",
+      "outcome": "preserve explicitly as demo-only behavior",
+      "status": "verified",
+      "next_action": "Do not represent demo sign-in as secure authentication."
+    },
+    {
+      "capability": "authorization",
+      "source": "No roles or authorization boundaries detected",
+      "outcome": "not applicable to static prototype",
+      "status": "verified",
+      "next_action": "None."
+    },
+    {
+      "capability": "browser-saved preferences and progress",
+      "source": "Browser localStorage for saved scholarships, activity, documents, and profile",
+      "outcome": "preserve browser-local demo persistence",
+      "status": "verified",
+      "next_action": "Preview checks passed for the English landing page, scholarship details, activity, mobile layout, persistence, and targeted data clearing."
+    },
+    {
+      "capability": "uploaded file bytes",
+      "source": "No upload flow or stored files; document page is a checklist",
+      "outcome": "preserve checklist only",
+      "status": "verified",
+      "next_action": "Keep file upload explicitly unavailable."
+    },
+    {
+      "capability": "external providers and links",
+      "source": "Official scholarship/provider links in sample records",
+      "outcome": "preserve outbound links",
+      "status": "verified",
+      "next_action": "Keep links opening safely in a new tab."
+    },
+    {
+      "capability": "public endpoints, callbacks, webhooks, schedules, payments, email, analytics, AI",
+      "source": "None detected",
+      "outcome": "not applicable",
+      "status": "verified",
+      "next_action": "None."
+    },
+    {
+      "capability": "secrets and cutover",
+      "source": "No user-owned secrets or live service cutover detected",
+      "outcome": "not applicable",
+      "status": "verified",
+      "next_action": "None."
+    },
+    {
+      "capability": "verification",
+      "source": "Lovable preview",
+      "outcome": "Confirmed in desktop and mobile previews; scholarship save/add-to-activity flow and refresh persistence passed without runtime errors.",
+      "status": "verified",
+      "next_action": "None."
+    }
   ]
 }
