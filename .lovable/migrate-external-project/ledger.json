@@ -2,11 +2,11 @@
   "source": "code-archive",
   "archive": "GRANTLY_VS_Code_Project.zip",
   "capabilities": [
-    {"capability":"application code and screens","source":"React/Vite prototype","outcome":"recreate in the existing TanStack app","status":"in_progress","next_action":"Preserve the English landing page, scholarship workspace, and demo interactions."},
+    {"capability":"application code and screens","source":"React/Vite prototype","outcome":"recreate in the existing TanStack app","status":"implemented","next_action":"Verify the English landing page, scholarship workspace, and demo interactions in preview."},
     {"capability":"schema and data records","source":"No database/schema or record export detected; sample scholarships are hard-coded","outcome":"retain illustrative sample listings; no database migration applies","status":"verified","next_action":"Keep sample-data disclaimers visible."},
     {"capability":"authentication and user identities","source":"Front-end-only demo sign-in; no auth provider or user records","outcome":"preserve explicitly as demo-only behavior","status":"verified","next_action":"Do not represent demo sign-in as secure authentication."},
     {"capability":"authorization","source":"No roles or authorization boundaries detected","outcome":"not applicable to static prototype","status":"verified","next_action":"None."},
-    {"capability":"browser-saved preferences and progress","source":"Browser localStorage for saved scholarships, activity, documents, and profile","outcome":"preserve browser-local demo persistence","status":"in_progress","next_action":"Restore after hydration and scope clearing to GRANTLY keys."},
+    {"capability":"browser-saved preferences and progress","source":"Browser localStorage for saved scholarships, activity, documents, and profile","outcome":"preserve browser-local demo persistence","status":"implemented","next_action":"Verify browser-local saves and targeted clearing in preview."},
     {"capability":"uploaded file bytes","source":"No upload flow or stored files; document page is a checklist","outcome":"preserve checklist only","status":"verified","next_action":"Keep file upload explicitly unavailable."},
     {"capability":"external providers and links","source":"Official scholarship/provider links in sample records","outcome":"preserve outbound links","status":"verified","next_action":"Keep links opening safely in a new tab."},
     {"capability":"public endpoints, callbacks, webhooks, schedules, payments, email, analytics, AI","source":"None detected","outcome":"not applicable","status":"verified","next_action":"None."},

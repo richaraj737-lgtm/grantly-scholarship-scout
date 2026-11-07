@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+
+## Project architecture
+
+- User-facing product pages use TanStack file routes, with substantial experiences composed from focused feature components; this preserves the existing route and SSR architecture.
