@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState, type ComponentProps, type FormEvent } from "react";
 import { Button as ButtonBase } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import grantlyLogo from "@/assets/grantly-logo.png.asset.json";
 
 import {
   GraduationCap, LayoutDashboard, Search, ClipboardCheck, Activity,
@@ -41,8 +42,7 @@ const navItems: { label: Page; icon: typeof Home }[] = [
 
 function Brand({ onClick }: { onClick: () => void }) {
   return <Button className="brand" onClick={onClick} aria-label="GRANTLY home">
-    <span className="brand-mark"><GraduationCap size={22} strokeWidth={2.5} /><span className="brand-star">✦</span></span>
-    <span>GRANTLY</span>
+    <img className="brand-logo" src={grantlyLogo.url} alt="GRANTLY — Discover. Apply. Achieve." />
   </Button>;
 }
 
